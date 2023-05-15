@@ -1,7 +1,7 @@
 import Footer from '../components/Footer';
 import MovieCard from '../components/MovieCard';
 import MovieHero from '../components/MovieHero';
-import { getMovie, getRandomNumber, getTrendingMovies, shuffleArray } from './utils';
+import { getMovie, getRandomNumber, getTrendingMovies, shuffleArray } from '../utils';
 
 export default async function Home() {
   const movieList = await getTrendingMovies(1);

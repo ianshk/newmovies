@@ -1,6 +1,6 @@
 import MovieCard from '@/components/MovieCard';
 import MovieHero from '@/components/MovieHero';
-import { getMovie, getSimilarMovies } from '@/app/utils';
+import { getMovie, getSimilarMovies } from '@/utils';
 import React from 'react';
 import Footer from '../../components/Footer';
 
