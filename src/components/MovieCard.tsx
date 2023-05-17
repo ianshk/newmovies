@@ -2,16 +2,16 @@
 import Link from 'next/link';
 import React from 'react';
 
-type MovieCardInfo = {
+interface MovieCardInfo {
   imageUrl: string;
   movieTitle: string;
   movieRating: string;
   movieId: string;
-};
+}
 
-type RatingProps = {
+interface RatingProps {
   rating: string;
-};
+}
 
 function CardRating({ rating }: RatingProps) {
   return (

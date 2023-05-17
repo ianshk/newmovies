@@ -3,12 +3,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Button from './Button';
 
-type MovieDetailProps = {
+interface MovieDetailProps {
   title: string;
   overview: string;
   posterImage: string;
   tagline: string;
-};
+}
 
 export default function MovieHero(props: MovieDetailProps) {
   const posterImage = 'https://image.tmdb.org/t/p/w780' + props.posterImage;
